@@ -6,7 +6,7 @@ if [ "$UID" = "0" ]
 then
     SUDO=""
 else
-    SUDO="sudo"
+    SUDO=""
 fi
 
 # Install prerequisites
